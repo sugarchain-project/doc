@@ -32,7 +32,6 @@ cd cpuminer-opt && \
 ./build.sh &&
 \
 cd && \
-rm -rf ~/.sugarchain && \
 mkdir ~/.sugarchain && \
 touch ~/.sugarchain/sugarchain.conf && \
 \
