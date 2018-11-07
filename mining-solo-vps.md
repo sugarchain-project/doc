@@ -1,6 +1,7 @@
 ## VPS solo mining
 
 ### 인증
+```
 ssh-keygen -t rsa -b 4096 -C "cryptozeny@gmail.com" && \
 eval "$(ssh-agent -s)" && \
 ssh-add ~/.ssh/id_rsa && \
@@ -8,9 +9,10 @@ echo "COPY to github ssh" ;\
 echo "*******************" ; \
 cat ~/.ssh/id_rsa.pub ; \
 echo "*******************"
-
+```
 
 ### sugar-solo-vps \
+```
 sudo add-apt-repository ppa:bitcoin/bitcoin -y && \
 sudo apt-get update -y && \
 sudo apt-get install -y \
@@ -44,14 +46,16 @@ cd && \
 ~/BitZenyPlus_CZ/src/sugarchaind -addnode=207.148.106.217 -daemon -rpcport=7978 && \
 sleep 1 && \
 ~/cpuminer-opt/cpuminer -a yespower -o http://localhost:7978 -t$(grep -c ^processor /proc/cpuinfo) -u user -p pass --coinbase-addr=SgEL8X6iREjrES9vn3gYGuoJaeTdHfvLyS
-
+```
 
 
 ### 실행
+```
 timeout 3600 ~/cpuminer-opt/cpuminer -a yespower -o http://localhost:7978 -t$(grep -c ^processor /proc/cpuinfo) -u user -p pass --coinbase-addr=SgEL8X6iREjrES9vn3gYGuoJaeTdHfvLyS && \
 \
 sleep 3600 && \
 timeout 3600 ~/cpuminer-opt/cpuminer -a yespower -o http://localhost:7978 -t$(grep -c ^processor /proc/cpuinfo) -u user -p pass --coinbase-addr=SgEL8X6iREjrES9vn3gYGuoJaeTdHfvLyS && \
 \
+```
 
 
