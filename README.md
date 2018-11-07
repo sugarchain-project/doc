@@ -36,31 +36,38 @@ Sugarchain은 ASIC 및 GPU 저항을 위해 `YesPoWer 1.0` 알고리즘을 사�
 
 ### 3. 비트코인 기반
 
-Sugarchain은 비트코인을 기반으로 개발되었기에 동일한 보안성을 제공한다. v0.15.1 버젼을 기초로 `SegWit Activation`을 기본탑재 하였다. 향후 주요 로드맵은 세컨드 레이어 솔루션인 `Lightning Network` 및 다중서명일원화 솔루션인 `Schnorr Signature`를 2020-Q1에 출시를 목표로 한다. 그 외에 CVE-2018-17144 버그를 수정하였다. 기술적인 로드맵은 비트코인을 그대로 답습하여 최상의 보안을 제공한다.
+Sugarchain은 비트코인을 기반으로 개발되었기에 동일한 보안성을 제공한다. v0.15.1 버젼을 기초로 `SegWit Activation`을 기본탑재 하였다. 향후 주요 로드맵은 세컨드 레이어 솔루션인 `Lightning Network` 및 다중서명일원화 솔루션인 `Schnorr Signature`를 2019-Q3/4에 출시를 목표로 한다. 그 외에 CVE-2018-17144 버그를 수정하였다. 기술적인 로드맵은 비트코인을 그대로 답습하여 최상의 보안을 제공한다.
 
 ## 로드맵
 
 2019.Q1
-클라이언트: 비트코인 v0.15 기반
-마이닝앱: cpuminer-opt (데스크탑)
-마이닝풀: NOMP
-블록탐색기: Insight v0.2
+ * 클라이언트: 비트코인 v0.15 기반
+ * 마이닝앱: cpuminer-opt (데스크탑)
+ * 마이닝풀: NOMP
+ * 블록탐색기: Insight v0.2
 
 2019.Q2
-클라이언트: 비트코인 v0.17 기반으로 업그레이드
-마이닝앱: 스마트폰 마이닝앱 (안드로이드)
-마이닝풀: YIIMP
-블록탐색기: Insight v0.4
+ * 클라이언트: 비트코인 v0.17 기반으로 업그레이드
+ * 마이닝앱: 스마트폰 마이닝앱 (안드로이드)
+ * 마이닝풀: YIIMP
+ * 블록탐색기: Insight v0.4
 
 2019.Q3
-로고 공모전 개최
-트위터 팁봇
+ * Lightning Network
+ * 로고 공모전 개최
+ * 트위터 팁봇
 
 2019.Q4
-캐릭터 공모전 개최
-커뮤니티 개설
+ * Schnorr Signature
+ * 캐릭터 공모전 개최
+ * 커뮤니티 개설
 
-
+2020.Q1
+ * Cryptopia 상장
+ * Tradesatoshi 상장
+ * CryptoBridge 상장
+ * Bisq 상장
+ * Crex24 상장
 
 
 
