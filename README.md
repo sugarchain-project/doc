@@ -1,6 +1,6 @@
 # Sugarchain
 
-#### Decentralized Cryptocurrency
+#### Decentralized cryptocurrency for one-CPU-one-vote
 
 ## 요약
 
