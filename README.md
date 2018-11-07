@@ -2,24 +2,21 @@
 
 #### Decentralized cryptocurrency for one-CPU-one-vote
 
-## 요약
+## 스펙
+|Sugarchain | 슈가체인 |
+|---|---|
+|Ticker | SUGAR|
+|Consensus Algorithm | PoW (YesPoWer 1.0) |
+|Difficulty Algorithm | Dark Gravity Wave 3.0 |
+|Block Time | 18 Seconds |
+|Port/RPC | 7979/7978 |
+|Block Reward | 50 SUGAR |
+|Reward Halving | Every 2,500,000 blocks |
+|Max supply | 250,000,000 SUGAR |
+|Premine | 0% |
 
-|Sugarchain		|	슈가체인			|
-|-----------------------|---------------------------------------|
-|분류 			|	가상화폐			|
-|발행방식		|	작업증명			|
-|도입일			|	2019-01-01 (예정)		|
-|개발자			| 	the sugarchain developers	|
-|통화기호		|	SUGAR				|
-|작업증명 알고리즘 	|	YesPoWer 1.0			|
-|최대발행량		|	2억5천만 SUGAR			|
-|선행채굴량		|	0 (없음)			|
-|블록타임		|	18초				|
-|난이도조절 알고리즘	|	DarkGravityWave3		|
-|블록당보상		|	50 SUGAR			|
-|포트/RPC		|	7979 (7978)			|
-|웹사이트		|	https://www.sugarchain.org	|
-|GITHUB			|	https://github.com/sugarchain	|
+웹사이트: https://www.sugarchain.org  
+GITHUB: https://github.com/sugarchain  
 
 ## 개요
 
