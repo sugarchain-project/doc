@@ -11,7 +11,7 @@
 |도입일			|	2019-01-01 (예정)		|
 |개발자			| 	the sugarchain developers	|
 |통화기호		|	SUGAR				|
-|작업증명 알고리즘 	|	YesPower 1.0			|
+|작업증명 알고리즘 	|	YesPoWer 1.0			|
 |최대발행량		|	2억5천만 SUGAR			|
 |선행채굴량		|	0 (없음)			|
 |블록타임		|	18초				|
