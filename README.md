@@ -7,7 +7,7 @@
 |---|---|
 |Ticker | SUGAR |
 |Consensus Algorithm | Proof-of-Work (YesPoWer 1.0) |
-|Difficulty Algorithm | adjust difficulty every blocks (DarkGravityWave 3.0) |
+|Difficulty Algorithm | djust difficulty every blocks (DarkGravityWave 3.0) |
 |Block Time | 18 Seconds |
 |Port / RPC | 7979 / 7978 |
 |Block Reward | 50 SUGAR |
