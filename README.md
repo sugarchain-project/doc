@@ -11,8 +11,8 @@
 |Block Time | 18 Seconds |
 |Port / RPC | 7979 / 7978 |
 |Block Reward | 50 SUGAR |
-|Reward Halving | Every 2,500,000 blocks |
-|Max supply | 250,000,000 SUGAR |
+|Reward Halving | Every 2,500,000 (250만) blocks |
+|Max supply | 250,000,000 (2억5천만) SUGAR |
 |Premine | 0 % (None) |
 
 웹사이트: https://www.sugarchain.org  
