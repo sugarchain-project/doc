@@ -2,21 +2,21 @@ Sugarchain
 Decentralized Cryptocurrency
 
 # 요약
-분류 			가상화폐
-발행방식		작업증명
-도입일			2019-01-01 (예정)
-개발자			the sugarchain developers
-통화기호		SUGAR
-작업증명 알고리즘 	YesPower 1.0
-최대발행량		2억5천만 SUGAR
-선행채굴량		0 (없음)
-블록타임		18초
-난이도조절 알고리즘	DarkGravityWave3
-블록당보상		50 SUGAR
-포트			7979
-RPC			7978
-웹사이트		https://www.sugarchain.org
-GITHUB			https://github.com/sugarchain
+
+|분류 			|	가상화폐			|
+|발행방식		|	작업증명			|
+|도입일			|	2019-01-01 (예정)		|
+|개발자			| 	the sugarchain developers	|
+|통화기호		|	SUGAR				|
+|작업증명 알고리즘 	|	YesPower 1.0			|
+|최대발행량		|	2억5천만 SUGAR			|
+|선행채굴량		|	0 (없음)			|
+|블록타임		|	18초				|
+|난이도조절 알고리즘	|	DarkGravityWave3		|
+|블록당보상		|	50 SUGAR			|
+|포트/RPC		|	7979 (7978)			|
+|웹사이트		|	https://www.sugarchain.org	|
+|GITHUB			|	https://github.com/sugarchain	|
 
 # 개요
 
