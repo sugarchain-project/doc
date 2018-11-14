@@ -69,7 +69,7 @@ consensus.nMinerConfirmationWindow = 2016; 		// 2016블록 (33.6시간) (1.4날)
 ### 슈가체인 (DarkGravityWave3: 매블록당 난이도조절)
  * 비트코인보다 블록타임이 `20배` 빠르다. (30초) 
  * 난이도조절은 매블록당. 
- * 규칙변경은 `2주 이내`에 `75% 이상` 합의요망. `라이트코인`과 같다.
+ * 규칙변경은 `2주 이내`에 `75% 이상` 합의요망. 합의비율은 `라이트코인`과 같다.
 ```cpp
 consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; 	// DGW3: 매블록당 난이도 재조정
 consensus.nPowTargetSpacing = 0.5 * 60; 		// 30초 (0.5분)
