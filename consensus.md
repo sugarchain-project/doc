@@ -13,7 +13,7 @@ consensus.nMinerConfirmationWindow = 2016; 		// 2016블록 (336시간) (2주) (1
 ```
 
 ### 라이트코인
- * 비트코인보다 블록타임이 `4배` 빠르다. 
+ * 비트코인보다 블록타임이 `4배` 빠르다. (2.5분)
  * 난이도 재조정 기간은 `2주`로 비트코인과 같다. 
  * 규칙변경은 `2주 이내`에 `75% 이상` 합의요망.
 ```cpp
@@ -44,10 +44,21 @@ consensus.nRuleChangeActivationThreshold = 13440; 	// 13440블록 (336시간) (1
 consensus.nMinerConfirmationWindow = 13440; 		// 13440블록 (336시간) (2주) (비트코인과동일)
 ```
 
+### 버트코인 (KimotoGravityWell: 매블록당 난이도조절)
+ * 비트코인보다 블록타임이 `4배` 빠르다. (2.5분) `라이트코인`과 같다.
+ * 난이도조절은 매블록당.
+ * 규칙변경은 `3.5날` 이내에 `75% 이상` 합의요망.
+```cpp
+consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; 	// 302400초(3.5날)
+consensus.nPowTargetSpacing = 2.5 * 60;			// 150초 (2.5분)
+consensus.nRuleChangeActivationThreshold = 1512; 	// 1512블록 (63시간) (75% of 2016블록)
+consensus.nMinerConfirmationWindow = 2016; 		// 2016블록 (84시간) (3.5날) (302400 / 150 = 2016)
+```
+
 ### 슈가체인 (DarkGravityWave3: 매블록당 난이도조절)
- * 비트코인보다 블록타임이 `20배` 빠르다. 
+ * 비트코인보다 블록타임이 `20배` 빠르다. (30초) 
  * 난이도조절은 매블록당. 
- * 규칙변경은 `라이트코인`과 동일하게 `2주 이내`에 `75% 이상` 합의요망.
+ * 규칙변경은 `2주 이내`에 `75% 이상` 합의요망. `라이트코인`과 같다.
 ```cpp
 consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; 	// DGW3: 매블록당 난이도 재조정
 consensus.nPowTargetSpacing = 0.5 * 60; 		// 30초 (0.5분)
