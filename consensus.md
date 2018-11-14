@@ -39,10 +39,10 @@ consensus.nMinerConfirmationWindow = 13440; 		// 13440블럭 (336시간) (2주) 
 ```
 
 ### 슈가체인
-비트코인보다 블럭타임이 `20배` 빠르고 각 비례하여 난이도 재조정 기간은 `2주`로 같다. 규칙변경은 `2주 이내`에 `75% 이상` 합의요망.
+비트코인보다 블록타임이 `20배` 빠르다. 난이도조절은 매블록당이며 규칙변경은 `2주 이내`에 `75% 이상` 합의요망.
 ```cpp
 consensus.nPowTargetTimespan = 14 * 24 * 60 * 60; 	// DGW3: 매블록당 난이도 재조정
 consensus.nPowTargetSpacing = 0.5 * 60; 		// 30초 (0.5분)
-consensus.nRuleChangeActivationThreshold = 30240; 	// 30240블럭 (252시간) (75% of 40320블럭)
-consensus.nMinerConfirmationWindow = 40320; 		// 40320블럭 (336시간) (2주) (1209600 / 30 = 40320) 
+consensus.nRuleChangeActivationThreshold = 30240; 	// 30240블록 (252시간) (75% of 40320블록)
+consensus.nMinerConfirmationWindow = 40320; 		// 40320블록 (336시간) (2주) (1209600 / 30 = 40320) 
 ```
