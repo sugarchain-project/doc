@@ -44,7 +44,7 @@ consensus.nRuleChangeActivationThreshold = 13440; 	// 13440블록 (336시간) (1
 consensus.nMinerConfirmationWindow = 13440; 		// 13440블록 (336시간) (2주) (비트코인과동일)
 ```
 
-### 버트코인 (KimotoGravityWell: 매블록당 난이도조절)
+### 버트(Vert)코인 (KimotoGravityWell: 매블록당 난이도조절)
  * 비트코인보다 블록타임이 `4배` 빠르다. (2.5분) `라이트코인`과 같다.
  * 난이도조절은 매블록당.
  * 규칙변경은 `3.5날 이내`에 `75% 이상` 합의요망.
