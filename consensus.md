@@ -1,5 +1,5 @@
 # 규칙변경합의규정
-consensus.nRuleChangeActivationThreshold
+`consensus.nRuleChangeActivationThreshold`
 https://github.com/bitcoin/bitcoin/blob/74213fa4d13e53c3811d69a516fc865b79fdd0c7/src/chainparams.cpp#L77
 
 ### 비트코인
