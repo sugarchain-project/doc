@@ -6,4 +6,4 @@ The name of our main node software is `Yemekawa (夢川)`. It can be translated 
  - The second letter `Kawa` stands for `Kawaii (可愛い)`. In this case the meaning is `Dreamy Cute`.
 
 ### Word to replace Core
-Also Yumekawa is replaces the word `Core` ie: Bitcoin Core. It sounds a bit centralized and we don't want such [Elitism](https://en.wikipedia.org/wiki/Elitism). In this term we are `Yumekawa developers`, but not Core developers.
+Also Yumekawa is replaces the word `Core` ie: Bitcoin Core. It sounds a bit centralized and we don't want such [Elitism](https://en.wikipedia.org/wiki/Elitism). In this term we are `Yumekawa developers`, but *not Core developers*.
