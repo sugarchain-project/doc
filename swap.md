@@ -10,3 +10,8 @@ sudo swapon --show && \
 sudo cp /etc/fstab /etc/fstab.bak && \
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 ```
+
+Check Swap
+```bash
+grep Swap /proc/meminfo
+```
