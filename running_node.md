@@ -2,6 +2,15 @@ Running a Sugarchain Node on Linux
 ----------------------------------
 64-bit version is always recommended
 
+## Minimum Requirement
+```
+CPU: 1 core
+RAM: 1024 MB (at least 2048 MB swap)
+DISK: 3.65 GB
+```
+If you have only `1024 MB RAM`, you may need at least `2048 MB swap`.
+https://github.com/sugarchain-project/doc/blob/master/swap.md
+
 ## Download
 ```
 wget filename.tar.gz
