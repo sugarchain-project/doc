@@ -4,6 +4,8 @@ at block height around `1,000,000` (191022)
 
 - 8cpu65536ram [Ryzen1700](https://en.wikichip.org/wiki/amd/ryzen_7/1700)
   * Linux64: download 2h / sync 3h / `total 5h`
+    - `-reindex-chainstate`: 3h
+    - `-reindex`: 7h
   * Linux32: ? / ? / ?
 
 - 1cpu1024ram VPS (+2gb swap)
