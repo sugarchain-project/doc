@@ -7,6 +7,7 @@ at block height around `1,000,000` (191022)
     - `-reindex-chainstate`: 3h
     - `-reindex`: 6h 20m 
   * Linux32: ? / ? / ?
+  * Bootstrap: verify 3:30 / sync 4:00 / `total 7:30` (bootstrap is slower than normal)
 
 - 1cpu1024ram VPS (+2gb swap)
   * Linux64: download 3h / sync 4h / `total 7h`
