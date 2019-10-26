@@ -20,7 +20,7 @@ at block height around `1,000,000` (191022)
 - 2cpu4096ram [MacbookAir 13inch late 2010](https://support.apple.com/kb/sp618)
   * OSX(High Siera): download 5h / sync 7h / `total 12h`
   
-- ARM64 (too slow)
+- ARM64 ***(too slow)***
   * aarch64: ? / ? / `total 80h (4d)`
-- ARM32 (not acceptable)
+- ARM32 ***(not acceptable)***
   * armv7l: ? / ? / `total 160h (a week)`
