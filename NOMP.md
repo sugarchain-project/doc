@@ -57,7 +57,7 @@ https://github.com/sugarchain-project/doc/blob/master/sugarchain.json
 {
     "name": "sugarchain",
     "symbol": "SUGAR",
-    "algorithm": "yespower",
+    "algorithm": "YespowerSugar",
     "peerMagic": "9feb4b9d",
     "peerMagicTestnet": "b0119070",
 
