@@ -99,7 +99,7 @@ case 'YespowerSugar':
                 };
 ```
 
-- Bech32 Patch for Website  
+- Bech32 Patch for Website (Credit @okoto-xyz)  
 Remove these lines on `libs/website.js`
 ```diff
 - buildKeyScriptPage();
