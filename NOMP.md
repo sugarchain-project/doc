@@ -51,6 +51,27 @@ void yespower_hash(const char *input, char *output, uint32_t len) {
 }
 ```
 
+- Stratum
+```js
+YespowerSugar: {
+        multiplier: Math.pow(2, 16),
+        hash: function(coinConfig){
+            var nValue = coinConfig.nValue || 2048;
+            var rValue = coinConfig.rValue || 32;
+            return function(data){
+                return multiHashing.yespower(data,nValue,rValue);
+            }
+        }
+
+case 'YespowerSugar':
+            return function (d) {
+                return util.reverseBuffer(util.sha256d(d));
+                };
+```
+
+Bech32
+------
+
 - Coin settings  
 https://github.com/sugarchain-project/doc/blob/master/sugarchain.json
 ```json
@@ -81,24 +102,6 @@ https://github.com/sugarchain-project/doc/blob/master/sugarchain.json
 }
 ```
 
-- Stratum
-```js
-YespowerSugar: {
-        multiplier: Math.pow(2, 16),
-        hash: function(coinConfig){
-            var nValue = coinConfig.nValue || 2048;
-            var rValue = coinConfig.rValue || 32;
-            return function(data){
-                return multiHashing.yespower(data,nValue,rValue);
-            }
-        }
-
-case 'YespowerSugar':
-            return function (d) {
-                return util.reverseBuffer(util.sha256d(d));
-                };
-```
-
 - Bech32 Patch for Website (Credit @okoto-xyz)  
 Remove these lines on `libs/website.js`
 ```diff
@@ -108,5 +111,11 @@ Remove these lines on `libs/website.js`
 -   res.end(keyScriptProcessed);
 - });
 ```
+
+Pool Settings
+-------------
+
+- Payment Interval: at least 10 min. (upto 60 min.)
+- Minimum Amount: at least 50 SUGAR (upto 300)
 
 If you have an additional question, contact [cryptozeny](https://keybase.io/cryptozeny) on [Discord](https://discord.gg/D6NJn5t) or [Telegram](https://t.me/sugarchain).
