@@ -117,5 +117,6 @@ Pool Settings
 
 - Payment Interval: at least 10 min. (upto 60 min.)
 - Minimum Amount: at least 50 SUGAR (upto 300)
+- P2P Block Notification is recommended
 
 If you have an additional question, contact [cryptozeny](https://keybase.io/cryptozeny) on [Discord](https://discord.gg/D6NJn5t) or [Telegram](https://t.me/sugarchain).
