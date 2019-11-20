@@ -42,3 +42,6 @@ crontabe -e
 # run daemon
 @reboot $HOME/sugarchain-0.16.3/bin/sugarchaind -server=1 -rpcuser=rpcuser -rpcpassword=rpcpassword -daemon
 ```
+
+## CLI commands
+https://github.com/sugarchain-project/doc/blob/master/cli.md
