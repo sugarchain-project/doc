@@ -13,7 +13,7 @@ If you have only `1024 MB RAM`, you may need at least `2048 MB swap`.
 
 ## Download
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
-- filename: `sugarchain-0.x.x.x-x86_64-linux-gnu.tar.gz`
+- filename: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
 
 ```
 wget filename
