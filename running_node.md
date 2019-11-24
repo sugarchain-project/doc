@@ -43,5 +43,23 @@ crontabe -e
 @reboot $HOME/sugarchain-0.16.3/bin/sugarchaind -server=1 -rpcuser=rpcuser -rpcpassword=rpcpassword -daemon
 ```
 
+## Firewall
+Open some ports for Sugarchain
+  * `22`: SSH connection
+  * `80`: Website (optional)
+  * `443`: SSL (optional)
+  * `34230`: mainnet
+  * `44230`: testnet (optional)
+
+```
+sudo ufw allow 22 && \
+sudo ufw allow 80 && \
+sudo ufw allow 443 && \
+sudo ufw allow 34230 && \
+sudo ufw allow 44230 && \
+sudo ufw enable && \
+sudo ufw status
+```
+
 ## CLI commands
 https://github.com/sugarchain-project/doc/blob/master/cli.md
