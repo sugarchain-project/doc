@@ -36,6 +36,7 @@ Yes. It is based on community donations. We are using it to reward people for th
 ```
 sugar1qg306xfw4895amwmspnm5j7qu3fev2dre53qlns
 ```
+https://1explorer.sugarchain.org/address/sugar1qg306xfw4895amwmspnm5j7qu3fev2dre53qlns
 
 #### What are your official social links?
 Our official website is https://sugarchain.org/ Check links channel to find others.
