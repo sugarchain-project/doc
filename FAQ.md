@@ -58,5 +58,6 @@ Future:
 
 One CPU One Vote.
 Satoshi Nakamoto said about the importance of decentralized mining in his whitepaper. We want to create a blockchain that anyone can do mining easily without any entry barriers.
+
 Quote(31 October, 2008):
-"Proof-of-work is essentially one-CPU-one-vote"
+> "Proof-of-work is essentially one-CPU-one-vote"
