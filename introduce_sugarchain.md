@@ -3,7 +3,7 @@ Introduce Sugarchain
 
 
 #### English
-Sugarchain is a pure POW project, completely driven by the community, and follows the MIT open source agreement. The main goal of the project is an attempt to make a technological breakthrough on the blockchain main chain. year.
+Sugarchain is a pure POW project, completely driven by the community, and follows the MIT open source agreement. The main goal of the project is an attempt to make a technological breakthrough on the blockchain main chain.
 
 All participants of Sugarchain are volunteers, no pre-mining, no crowdfunding, and no node rewards. The development team (Volunteer Team, Rewarded in Sugar) is only responsible for the technical output and maintenance of the main chain, and is not actively involved in marketing activities. .
 
