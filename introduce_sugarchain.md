@@ -8,7 +8,7 @@ Sugarchain is a pure POW project, completely driven by the community, and follow
 All participants of Sugarchain are volunteers, no pre-mining, no crowdfunding, and no node rewards. The development team (Volunteer Team, Rewarded in Sugar) is only responsible for the technical output and maintenance of the main chain, and is not actively involved in marketing activities.
 
 Sugarchain currently has:
--5 second transaction speed
+5 second transaction speed
 120 times faster than BTC
 30 times faster than LTC
 12 times faster than the governor
