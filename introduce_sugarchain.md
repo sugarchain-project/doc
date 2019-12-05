@@ -14,8 +14,8 @@ Sugarchain currently has:
 12 times faster than DOGE.
 Stable transaction time:
 For hash attacks, even if the computing power suddenly increases, the block time can still be stabilized at 5 seconds.
--Ultra low isolation rate:
-According to TestNet results, the average isolation prevention rate is less than 3%.
+Low orphan blocks rate:
+According to the testnet results, the average orphan rate is under 3% and no problem occurs.
 
 
 #### Chinese
