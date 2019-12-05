@@ -11,8 +11,8 @@ Sugarchain currently has:
 5 second transaction speed,
 120 times faster than BTC,
 30 times faster than LTC,
-12 times faster than the governor.
-Stable trading hours:
+12 times faster than DOGE.
+Stable transaction time:
 For hash attacks, even if the computing power suddenly increases, the block time can still be stabilized at 5 seconds.
 -Ultra low isolation rate:
 According to TestNet results, the average isolation prevention rate is less than 3%.
