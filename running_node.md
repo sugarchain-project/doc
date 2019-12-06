@@ -1,6 +1,6 @@
 Running a Sugarchain Node on Linux
 ----------------------------------
-`64-bit` version is always recommended
+`64-bit` version is always recommended for best performance
 
 ## Minimum Requirement
 ```
@@ -33,7 +33,7 @@ crontabe -e
 ```
 
 - Adding this line:
-  * Remove `debug.log` at every reboot, due to save disk space.
+  * Remove `debug.log` at every reboot, to save disk space.
   * Starting node (daemon) at every reboot.
 ```bash
 # delete logs
