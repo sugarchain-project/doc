@@ -73,3 +73,13 @@ ALTMARKETS
 
 
 #### Spanish
+Sugarchain en un proyecto de puro CPU POW, es como Bitcoin completamente dirigido por la comunidad
+
+Todos los colaboradores de Sugarchain son voluntarios, no se generaron monedas antes del lanzamiento, no hay ICO, No hay recompensa por nodos.
+El equipo de desarrollo es solo responsable de la salida técnica y el mantenimiento de la cadena principal.
+
+42.94967296 Sugarchain coins son generados cada 5 segundos. Sugarchain es 120 veces más rápido que Bitcoin, 30 veces más rápido que Litecoin y 12 veces más rápido que Dogecoin.
+
+Cantidad total de monedas: 1,073,741,824
+Tiempo de reducción a la mitad: aproximadamente 2 años
+Tiempo de liberación: el número total de veces que ocurrirá una reducción a la mitad es 33 veces, en un lapso de 66 años.
