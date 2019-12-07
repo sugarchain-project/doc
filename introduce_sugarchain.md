@@ -3,9 +3,9 @@ Introduce Sugarchain
 
 
 #### English
-Sugarchain is a pure POW project, completely driven by the community, and follows the MIT open source agreement. The main goal of the project is an attempt to make a technological breakthrough on the blockchain main chain.
+Sugarchain is a pure CPU POW project, it's like Bitcoin completely driven by the community
 
-All participants of Sugarchain are volunteers, no pre-mining, no crowdfunding, and no node rewards. The development team (Volunteer Team, Rewarded in Sugar) is only responsible for the technical output and maintenance of the main chain, and is not actively involved in marketing activities.
+All contributors of Sugarchain are volunteers, no coins were generated prior to launch, there is no ICO, there are no node rewards. The development team is only responsible for the technical output and maintenance of the main chain
 
 Sugarchain currently has:
 + 5 second transaction speed
@@ -15,8 +15,10 @@ Sugarchain currently has:
 
 Stable transaction time:
 For hash attacks, even if the computing power suddenly increases, the block time can still be stabilized at 5 seconds.
-Low orphan blocks rate:
-According to the testnet results, the average orphan rate is under 3% and no problem occurs.
+Low orphan blocks rate: According to the testnet results, the average orphan rate is under 3% and no problem occurs.
+Total Coin Supply: 1,073,741,824 
+Halving Time: about 2 years
+Release Time: The total number of times a halving will occur is 33 times, over the span of 66 years
 
 
 #### Chinese
@@ -69,3 +71,5 @@ ALTMARKETS
 
 #### Japanese
 
+
+#### Spanish
