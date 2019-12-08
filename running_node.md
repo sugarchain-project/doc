@@ -29,7 +29,7 @@ tar -xvzf filename
 
 - Run crontab
 ```bash
-crontabe -e
+crontab -e
 ```
 
 - Adding this line:
