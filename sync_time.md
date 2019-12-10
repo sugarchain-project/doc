@@ -1,6 +1,6 @@
 SYNC TIME
 ---------
-at block height around `1,000,000` (191022)
+at block height around `1,000,000` (2019-10-22)
 
 - 8cpu65536ram [Ryzen1700](https://en.wikichip.org/wiki/amd/ryzen_7/1700)
   * Linux64: download 2h / sync 3h / `total 5h`
