@@ -115,8 +115,8 @@ Remove these lines on `libs/website.js`
 Pool Settings
 -------------
 
-- Payment Interval: at least 10 min. (upto 60 min.)
-- Minimum Amount: at least 50 SUGAR (upto 300)
+- Payment Interval: at least 10 min. (upto 60++ min.)
+- Minimum Amount: at least 50 SUGAR (upto 300++ SUGAR)
 - P2P Block Notification is recommended
 
 -------------
