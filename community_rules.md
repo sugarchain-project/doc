@@ -7,3 +7,4 @@ DO NOT:
 - Publishing other's private information, such as physical or electronic addresses, without explicit permission.
 - Share how many coins you have. This makes you a target to hackers.
 - Openly argue with an admin or moderator.
+- Spread FUD about Sugarchain or any other cryptocurrency 
