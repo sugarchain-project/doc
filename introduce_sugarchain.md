@@ -3,22 +3,7 @@ Introduce Sugarchain
 
 
 #### English
-Sugarchain is a pure CPU POW project, it's like Bitcoin completely driven by the community
-
-All contributors of Sugarchain are volunteers, no coins were generated prior to launch, there is no ICO, there are no node rewards. The development team is only responsible for the technical output and maintenance of the main chain
-
-Sugarchain currently has:
-+ 5 second transaction speed
-+ 120 times faster than BTC
-+ 30 times faster than LTC
-+ 12 times faster than DOGE
-
-Stable transaction time:
-For hash attacks, even if the computing power suddenly increases, the block time can still be stabilized at 5 seconds.
-Low orphan blocks rate: According to the testnet results, the average orphan rate is under 3% and no problem occurs.
-Total Coin Supply: 1,073,741,824 
-Halving Time: about 2 years
-Release Time: The total number of times a halving will occur is 33 times, over the span of 66 years
+The world's fastest PoW blockchain with the most accurate halvings. Also, the first native SegWit (Bech32) built-in by default. Sugarchain lives up to the claim of “world’s fastest PoW blockchain” with a block time of 5 seconds. To implement this fast block time, a new difficulty adjustment algorithm was needed and we developed it. Unlike Zcash’s N17, SugarShield-N510 (based on Zcash’s modification of Digishield) is meant to have a steady and accurate re-targeting to a very fast block time. Regarding the "most accurate halvings" claim, Halving is everything, Bitcoin is valuable because its total supply has been strictly limited, unlike traditional currencies. This total supply is controlled only by that halving. There is nothing else. We made this halving better. The block reward should be to a power of two, so that it halves correctly, ie) 2^32/100000000 = 42.94967296 SUGAR. Halving schedule: Interval 12500000 blocks (5^8*32) which is about 2 years (exactly 1.9818619989852864… years). The total number of times halving will occur is 33 times, over a span of 66 years. Total supply: 1,073,741,824 SUGAR in theory, and 1073741823.875 SUGAR in actual. The difference is 0.125 SUGAR. One Satoshi (0.00000001) limitation makes this difference. In addition, this number is meaningful. FYI: 1 GB = 1073741824 Byte (2^30)
 
 
 #### Chinese
