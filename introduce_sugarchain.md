@@ -67,7 +67,7 @@ ALTMARKETS
 
 
 #### Indonesian
-
+Sugarchain adalah proyek CPU POW murni, ini seperti Bitcoin sepenuhnya dikendalikan oleh komunitas Semua kontributor Sugarchain adalah sukarelawan, tidak ada koin yang dihasilkan sebelum peluncuran, tidak ada ICO, tidak ada imbalan simpul. Tim pengembangan hanya bertanggung jawab untuk output teknis dan pemeliharaan rantai utama Sugarchain saat ini memiliki: Kecepatan transaksi 5 detik 120 kali lebih cepat dari BTC 30 kali lebih cepat dari LTC 12 kali lebih cepat dari DOGE Waktu transaksi yang stabil: Untuk hash yang tiba tiba meningkat, bahkan jika daya komputasi tiba-tiba meningkat, waktu blok masih dapat distabilkan pada 5 detik. Tingkat orphane yang rendah: Menurut hasil testnet, tingkat orphane rata-rata di bawah 3% dan tidak ada masalah yang terjadi. Total Pasokan Koin: 1.073.741.824 Waktu buat halving: sekitar 2 tahun dari waktu Rilis: Jumlah total halving adalah 33 kali,perkiraan selama rentang waktu 66 tahun
 #### Korean
 
 
