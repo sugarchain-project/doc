@@ -4,7 +4,7 @@ Since we are the first [BECH32](https://en.bitcoin.it/wiki/BIP_0173) user, so yo
 
 Requirement
 -----------
-- Minimum: 1 CPU / 1 GB RAM / 3 GB HDD (at least 2 GB [swap](https://github.com/sugarchain-project/doc/blob/master/swap.md))
+- Minimum: 1 CPU / 1 GB RAM / 4 GB HDD (at least 2 GB [swap](https://github.com/sugarchain-project/doc/blob/master/swap.md))
 - 10+ Miners: 2 CPU / 4 GB RAM / 8 GB HDD
 - 100+ Miners: 4 CPU / 8 GB RAM / 32 GB SSD
 
