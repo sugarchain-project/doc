@@ -8,8 +8,12 @@ CPU: 1 core
 RAM: 1024 MB (at least 2048 MB swap)
 DISK: 3.65 GB
 ```
+
 If you have only `1024 MB RAM`, you may need at least `2048 MB swap`.
 - SWAP: https://github.com/sugarchain-project/doc/blob/master/swap.md
+
+Optional UTF-8 and Timezone
+- https://github.com/sugarchain-project/doc/blob/master/UTF%2Btimezone.md
 
 ## Download
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
