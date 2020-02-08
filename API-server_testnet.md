@@ -29,8 +29,11 @@ make check -j$(nproc)
 ```
 
 ##### Running node (testnet)
-Run with `-testnet` flag
 https://github.com/sugarchain-project/doc/blob/master/running_node.md
+Run with `-testnet -txindex=1 -addressindex=1` flag.
+```
+$HOME/sugarchain/src/sugarchaind -server=1 -rpcuser=rpcuser -rpcpassword=rpcpassword -testnet -txindex=1 -addressindex=1 -daemon
+```
 
 ### API-server
 https://github.com/sugarchain-project/api-server.git
@@ -120,13 +123,19 @@ sudo apt-get install -y certbot python-certbot-nginx
 ```
 
 Cerbot run
-`sudo certbot --nginx`
+```bash
+sudo certbot --nginx
+```
 
 Certbot test
-`sudo certbot renew --dry-run`
+```bash
+sudo certbot renew --dry-run
+```
 
 Certbot cron
-`crontab -e`
+```bash
+crontab -e
+```
 
 Add following for automatic SSL update every week
 ```bash
@@ -157,3 +166,7 @@ Cronjob (total)
 # run api-server
 @reboot /usr/bin/python3 $HOME/api-server/app.py >> $HOME/api-server.log 2>&1
 ```
+
+##### Reboot
+Reboot and check whether running
+https://api-testnet.sugarchain.org/
