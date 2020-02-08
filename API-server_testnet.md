@@ -47,7 +47,7 @@ pip3 install -r requirements.txt
 ```
 
 ##### Create `config.py` file in root directory
-(testnet)
+`44229` for testnet
 ```py
 rid = 'api-server'
 cache = 3600  # Cache request for 1 hour
