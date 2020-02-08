@@ -155,7 +155,6 @@ Cronjob (total)
 ```bash
 # delete logs
 @reboot rm $HOME/.sugarchain/testnet5/debug.log
-@reboot rm $HOME/certbot.log
 @reboot rm $HOME/api-server.log
 
 # SSL renew by certbot (every Wed at 08:16 AM)
