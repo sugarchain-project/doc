@@ -43,11 +43,12 @@ pip3 install -r requirements.txt
 ```
 
 ##### Create `config.py` file in root directory
+(testnet)
 ```
 rid = 'api-server'
 cache = 3600  # Cache request for 1 hour
 secret = 'YOU SHOULD HAVE A VERY STRONG PASSWORD HERE'
-endpoint = 'http://rpcuser:rpcpassword@127.0.0.1:34229/' # RPC 34229 or 44229
+endpoint = 'http://rpcuser:rpcpassword@127.0.0.1:44229/' # RPC 34229 or 44229
 host = '0.0.0.0'
 port = 1234
 debug = True
@@ -72,7 +73,7 @@ sudo ufw enable && \
 sudo ufw status
 ```
 
-##### NGINX
+##### NGINX (testnet)
 Install
 ```
 URL="api-testnet.sugarchain.org" && \
