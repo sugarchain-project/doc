@@ -18,7 +18,8 @@ libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev \
 protobuf-compiler libqrencode-dev help2man
 ```
 
-##### Build from source (testnet)
+##### Build from source
+Branch `API-addressindex`
 ```bash
 git clone --single-branch --branch API-addressindex https://github.com/sugarchain-project/sugarchain.git && \
 cd sugarchain && \
