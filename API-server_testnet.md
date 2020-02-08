@@ -156,6 +156,7 @@ Cronjob (total)
 # delete logs
 @reboot rm $HOME/.sugarchain/testnet5/debug.log
 @reboot rm $HOME/api-server.log
+@reboot touch $HOME/api-server.log
 
 # SSL renew by certbot (every Wed at 08:16 AM)
 16 8 * * 4 sudo certbot renew --force-renewal >> $HOME/certbot.log 2>&1
