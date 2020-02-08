@@ -1,4 +1,4 @@
-# Build an API-addressindex server on TESTNET
+# Build an API-server for TESTNET
 
 ### Yumekawa (testnet)
 
