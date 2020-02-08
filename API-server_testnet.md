@@ -5,7 +5,7 @@
 ##### Depends on Bitcoin Core
 Exactly the same as dependencies of Bitcoin Core v0.16.3.
 
-```
+```bash
 sudo add-apt-repository -y ppa:bitcoin/bitcoin && \
 sudo apt-get update && \
 sudo apt-get install -y \
@@ -18,7 +18,7 @@ protobuf-compiler libqrencode-dev help2man
 ```
 
 ##### Build from source (testnet)
-```
+```bash
 git clone --single-branch --branch API-addressindex https://github.com/sugarchain-project/sugarchain.git && \
 cd sugarchain && \
 ./autogen.sh && \
@@ -35,7 +35,7 @@ https://github.com/sugarchain-project/doc/blob/master/running_node.md
 https://github.com/sugarchain-project/api-server.git
 
 ##### Build API-server
-```
+```bash
 git clone https://github.com/sugarchain-project/api-server.git && \
 cd api-server && \
 sudo apt-get install python3-pip && \
@@ -44,7 +44,7 @@ pip3 install -r requirements.txt
 
 ##### Create `config.py` file in root directory
 (testnet)
-```
+```py
 rid = 'api-server'
 cache = 3600  # Cache request for 1 hour
 secret = 'YOU SHOULD HAVE A VERY STRONG PASSWORD HERE'
@@ -55,7 +55,7 @@ debug = True
 ```
 
 ##### Run
-```
+```bash
 $ python3 app.py
 ```
 
@@ -63,7 +63,7 @@ $ python3 app.py
 
 ##### Firewall
 `34230` for mainnet, `44230` for testnet
-```
+```bash
 sudo ufw allow 22 && \
 sudo ufw allow 80 && \
 sudo ufw allow 443 && \
@@ -75,7 +75,7 @@ sudo ufw status
 
 ##### NGINX (testnet)
 Install
-```
+```bash
 URL="api-testnet.sugarchain.org" && \
 sudo apt-get install -y nginx && \
 sudo rm /etc/nginx/sites-enabled/default && \
@@ -83,7 +83,7 @@ sudo nano /etc/nginx/sites-available/$URL
 ```
 
 Paste it into file `api-testnet.sugarchain.org`
-```
+```json
 server {
     listen 80;
     server_name api-testnet.sugarchain.org;
@@ -97,7 +97,7 @@ server {
 ```
 
 Restart NGINX
-```
+```bash
 URL="api-testnet.sugarchain.org" && \
 sudo ln -s \
 /etc/nginx/sites-available/$URL \
@@ -109,7 +109,7 @@ sudo service nginx restart
 
 ##### Certbot
 Certbot installing
-```
+```bash
 sudo apt-get update && \
 sudo apt-get install -y software-properties-common && \
 sudo add-apt-repository -y universe && \
@@ -128,20 +128,20 @@ Certbot cron
 `crontab -e`
 
 Add following for automatic SSL update every week
-```
+```bash
 # SSL renew by certbot (every Wed at 08:16 AM)
 16 8 * * 4 sudo certbot renew --force-renewal >> $HOME/certbot.log 2>&1
 ```
 
 ##### Cronjob result (testnet)
 Make logfile
-```
+```bash
 touch $HOME/certbot.log && \
 touch $HOME/api-server.log
 ```
 
 Cronjob (total)
-```
+```bash
 # delete logs
 @reboot rm $HOME/.sugarchain/testnet5/debug.log
 @reboot rm $HOME/certbot.log
