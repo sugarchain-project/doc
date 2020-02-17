@@ -7,7 +7,7 @@
 
 ### What causes this banning?
 - Your Windows 10 PC is in wrong internet time
-- A bug after Windows 10 automatica update
+- A bug after Windows 10 automatic update
   * https://www.windowscentral.com/how-manage-time-servers-windows-10
 
 ### Yumekawa Network Rule
