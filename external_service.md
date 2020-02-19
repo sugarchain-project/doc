@@ -1,4 +1,5 @@
 # External Service
+Some services may duplicated in https://github.com/sugarchain-project/team-contacts
 
 - SUGAR Instant Mining Script Generator
   * Notification: https://twitter.com/sugarchain_dev/status/1229467322856853504
