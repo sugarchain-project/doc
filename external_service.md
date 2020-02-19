@@ -13,4 +13,8 @@ Some services may duplicated in https://github.com/sugarchain-project/team-conta
   * URL(LiveMiner): https://gitlab.com/Sandelinos/sugarchain-live-miner
   * Tutorial(Youtube): https://youtu.be/2XavHsBIsP4
 
+- Mining Tutorial by joe_land1
+  * Dev: joe_land1
+  * Tutorial(Youtube): https://youtu.be/vgNufKBR2g4
+
 - 
