@@ -24,3 +24,6 @@ We don't have a roadmap as other projects with exact dates and etc. We have some
 - Android Wallet Release on Playstore (coming soon)
 - iOS Wallet Release on Applestore (DUNS required)
 - Web Wallet (finished)
+
+### Last update
+Date: 2020-02-26
