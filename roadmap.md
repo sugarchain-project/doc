@@ -21,6 +21,6 @@ We don't have a roadmap as other projects with exact dates and etc. We have some
 
 ### On-going or finished
 - Yumekawa 0.19
-- Android Wallet Release on Playstore
+- Android Wallet Release on Playstore (coming soon)
 - iOS Wallet Release on Applestore (DUNS required)
-- Web Wallet
+- Web Wallet (finished)
