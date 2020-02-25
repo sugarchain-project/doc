@@ -10,11 +10,11 @@ We don't have a roadmap as other projects with exact dates and etc. We have some
 - Second Layer Solution
   * LN (Lightning Network)
   * AtomicSwap by y-chan
-  * grin++ privacy layer
-  * OMNI layer for USDT (it seems possible, but legal issue must solved!)
+  * grin++ Privacy Layer
+  * OMNI Layer for USDT (it seems possible, but legal issue must solved)
 - Wallet
   * Smartphone (Android) Fullnode
-  * Privacy Wallet (ZK Wasabi)
+  * 3rd party Privacy Wallet (ZK Wasabi)
   * Smartphone (Android) Light Wallet (electrum) by y-chan
 - CPUMINER
   * New cpuminer for Smartphone and RaspberryPi
