@@ -8,13 +8,16 @@ We don't have a roadmap as other projects with exact dates and etc. We have some
   * Yumekawa 0.20
   * Schnorr+Taproot for improving privacy
 - Android Fullnode
-- LN (Lightning Network)
+- Second Layer Solution
+  * LN (Lightning Network)
+  * AtomicSwap by y-chan
+  * grin++ privacy layer
+  * OMNI layer for USDT (it seems possible, but legal issue must solved!)
 - Privacy Wallet (ZK Wasabi)
 - Smartphone Light Wallet (electrum) by y-chan
 - New cpuminer for Smartphone and RaspberryPi
 
 ### On-going or finished
-- Atomic Swap by y-chan
 - Yumekawa 0.19
 - Android Wallet Release on Playstore
 - iOS Wallet Release on Applestore (DUNS required)
