@@ -4,9 +4,10 @@
 We don't have a roadmap as other projects with exact dates and etc. We have something we work on but with no ETA.
 
 ### Planned
-- Yumekawa 0.20
-  * Schnorr+Taproot Soft Fork for improving privacy (at least 75% agreement required)
-  * Android Fullnode
+- [Walpurgisnacht](https://gist.github.com/decryp2kanon/1f8f56b5b28e5aa5895d2bf75d335603) Soft Fork (at least 75% agreement required)
+  * Yumekawa 0.20
+  * Schnorr+Taproot for improving privacy
+- Android Fullnode
 - LN (Lightning Network)
 - Privacy Wallet (ZK Wasabi)
 - Smartphone Light Wallet (electrum) by y-chan
