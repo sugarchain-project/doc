@@ -48,7 +48,7 @@ crontab -e
 
 # reboot every week on Monday(1) 01:01
 # Minute | Hour | Day | Month | Day(Week) 
-1 1 * * MON sudo /sbin/shutdown -r now
+# 1 1 * * MON sudo /sbin/shutdown -r now
 ```
 
 ## Firewall
