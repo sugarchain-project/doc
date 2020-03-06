@@ -45,6 +45,10 @@ crontab -e
 
 # run daemon
 @reboot $HOME/sugarchain-0.16.3/bin/sugarchaind -server=1 -rpcuser=rpcuser -rpcpassword=rpcpassword -daemon
+
+# reboot every week on Monday(1) 01:01
+# Minute | Hour | Day | Month | Day(Week) 
+1 1 * * MON sudo /sbin/shutdown -r now
 ```
 
 ## Firewall
