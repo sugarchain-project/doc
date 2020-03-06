@@ -25,7 +25,7 @@ wget https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.
 
 ## Verify & Unzip
 ```
-sha256sum sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz # check if hash match
+sha256sum sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz # check if hash match # 20ca6c6e5fd395cd3ff0cc41601eaa156ee43ae92e44cc0b6eaea8b3cbf09b06
 tar -xvzf sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
 ```
 
