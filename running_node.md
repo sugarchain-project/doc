@@ -20,13 +20,13 @@ Optional UTF-8 and Timezone
 - filename: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
 
 ```
-wget filename
+wget https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.30-moonlight/sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
 ```
 
 ## Verify & Unzip
 ```
-sha256sum filename # check if hash match
-tar -xvzf filename
+sha256sum sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz # check if hash match
+tar -xvzf sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
 ```
 
 ## Crontab
