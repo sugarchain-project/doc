@@ -1,7 +1,7 @@
-If you have only 1024 MB RAM, you may need at least 2048 MB swap.
+If you have only 1024 MB RAM, you may need at least 3 GB swap.
 
 ```bash
-sudo fallocate -l 2G /swapfile && \
+sudo fallocate -l 3G /swapfile && \
 sudo chmod 600 /swapfile && \
 ls -lh /swapfile | grep -e "-rw-------" && \
 sudo mkswap /swapfile && \
