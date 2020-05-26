@@ -17,9 +17,7 @@ Optional UTF-8 and Timezone
 
 ## Download
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
-- filename: `sugarchain-0.16.3.x-x86_64-linux-gnu.tar.gz`
-
-```
+```bash
 wget https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.30-moonlight/sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
 ```
 
