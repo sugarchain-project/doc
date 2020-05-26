@@ -9,7 +9,7 @@ RAM: 1024 MB (at least 2048 MB swap)
 DISK: 3.65 GB
 ```
 
-If you have only `1024 MB RAM`, you may need at least `2048 MB swap`.
+If you have only `1024 MB RAM`, you may need at least `3 GB swap`.
 - SWAP: https://github.com/sugarchain-project/doc/blob/master/swap.md
 
 Optional UTF-8 and Timezone
