@@ -69,7 +69,7 @@ sudo ufw status
 ## CLI commands
 https://github.com/sugarchain-project/doc/blob/master/cli.md
 
-### Trouble Shooting
+## Trouble Shooting
 - Stuck when restarting, if your RAM is under 1 GB.
   * https://github.com/sugarchain-project/sugarchain/issues/156
   * `init message: Rewinding blocks...`
