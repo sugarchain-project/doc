@@ -9,9 +9,8 @@ RAM: 1024 MB
 DISK: 5 GB
 ```
 
-If you have only `1024 MB RAM`, you need at least `3 GB swap`, and add `-dbcache=50`(default 450 MB) `-maxmempool=10`(default 300 MB) flags.
+If you have only `1024 MB RAM`, you need at least `3 GB swap`.
 - SWAP: https://github.com/sugarchain-project/doc/blob/master/swap.md
-- dbcache: https://github.com/bitcoin/bitcoin/issues/11752#issuecomment-346451450
 - Reduce Memory Usage: https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md
 
 Optional UTF-8 and Timezone
@@ -69,3 +68,10 @@ sudo ufw status
 
 ## CLI commands
 https://github.com/sugarchain-project/doc/blob/master/cli.md
+
+### Trouble Shooting
+- Stuck when restarting, if your RAM is under 1 GB.
+  * https://github.com/sugarchain-project/sugarchain/issues/156
+  * `init message: Rewinding blocks...`
+  * `Using obfuscation key for /root/.sugarchain/blocks/index: 0000000000000000`
+  * Due to low memory, it can takes from some hours upto a day. Just wait.
