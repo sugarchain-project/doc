@@ -9,8 +9,10 @@ RAM: 1024 MB
 DISK: 5 GB
 ```
 
-If you have only `1024 MB RAM`, you may need at least `3 GB swap`.
+If you have only `1024 MB RAM`, you may need at least `3 GB swap` and add `-dbcache=50` flag (default 450 MB).
 - SWAP: https://github.com/sugarchain-project/doc/blob/master/swap.md
+- dbcache: https://github.com/bitcoin/bitcoin/issues/11752#issuecomment-346451450
+- Reduce Memory Usage: https://github.com/bitcoin/bitcoin/blob/master/doc/reduce-memory.md
 
 Optional UTF-8 and Timezone
 - https://github.com/sugarchain-project/doc/blob/master/UTF%2Btimezone.md
