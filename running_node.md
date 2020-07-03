@@ -19,13 +19,14 @@ Optional UTF-8 and Timezone
 ## Download
 - URL: https://github.com/sugarchain-project/sugarchain/releases/latest
 ```bash
-wget https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.30-moonlight/sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
+wget https://github.com/sugarchain-project/sugarchain/releases/download/v0.16.3.34-starboy/sugarchain-0.16.3.34-starboy-x86_64-linux-gnu.tar.gz
 ```
 
 ## Verify & Unzip
 ```
-sha256sum sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz # check if hash match # 20ca6c6e5fd395cd3ff0cc41601eaa156ee43ae92e44cc0b6eaea8b3cbf09b06
-tar -xvzf sugarchain-0.16.3.30-moonlight-x86_64-linux-gnu.tar.gz
+sha256sum sugarchain-0.16.3.34-starboy-x86_64-linux-gnu.tar.gz
+# starboy # 4a79d2bb85c306fa37b57ab5790931103e4311b7dc8edeca4c86c3ec26590b62
+tar -xvzf sugarchain-0.16.3.34-starboy-x86_64-linux-gnu.tar.gz
 ```
 
 ## Crontab
