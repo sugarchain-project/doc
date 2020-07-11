@@ -1,4 +1,4 @@
-# Introduction to Sugarchain Project
+# Introduction to the Sugarchain Project
 
 - Reference: [1](https://grayscale.co/insights/an-introduction-to-litecoin/?utm_medium=social&utm_source=twitter&utm_campaign=2020_q1_LTC_building-blocks) [2](https://digibyte.io/?lang=en)
 - Keywords
@@ -14,4 +14,4 @@ Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment n
 
 The Sugarchain Project emerged as an alternative solution to Bitcoin in light of early concerns over Bitcoin’s wait times in confirming block transactions and rounding error in halving block reward. By introducing minor technical modifications to the original Bitcoin source code, Sugarchain allowed for much faster transaction speeds and even lower processing fees, and has ***the most accurate block reward halving and total supply*** than other digital assets include Bitcoin. Besides Sugarchain is following Satoshi Nakamoto's ***one-CPU-one-vote*** model therefore GPU and ASIC mining is not possible, and ***the first Native SegWit (Bech32) by default*** since its launching.
 
-As one of successful derivatives of Bitcoin, Sugarchain is establishing its position as ***the world's fastest PoW blockchain***, complementing and reinforcing Bitcoin in purpose, function, and utility, and challenging our traditional notions of money. The Sugarchain project has ***never been funded through an ICO or premine***. There is no CEO or a company controlling the Sugarchain blockchain. It is a volunteer based and global community driven project.
+As one of successful derivatives of Bitcoin, Sugarchain is establishing its position as ***the world's fastest PoW blockchain***, complementing and reinforcing Bitcoin in purpose, function, and utility, and challenging our traditional notions of money. The Sugarchain Project has ***never been funded through an ICO or premine***. There is no CEO or a company controlling the Sugarchain blockchain. It is a volunteer based and global community driven project.
