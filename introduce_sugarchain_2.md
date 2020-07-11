@@ -5,7 +5,7 @@
   * The world's fastest PoW blockchain
   * The first Native SegWit (Bech32) by default
   * The most accurate block reward halving and total supply
-  * Fair distribution & volunteer based
+  * Fair distribution and volunteer based
   * one-CPU-one-vote
 
 ## Long version
