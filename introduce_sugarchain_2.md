@@ -1,12 +1,13 @@
 # DRAFT
 
-## Long version
 - [Reference](https://grayscale.co/insights/an-introduction-to-litecoin/?utm_medium=social&utm_source=twitter&utm_campaign=2020_q1_LTC_building-blocks)
 - Keywords
   * The world's fastest PoW blockchain
   * The first Native SegWit (Bech32) by default
   * The most accurate total supply
   * one-CPU-one-vote
+
+## Long version
 
 Sugarchain is a decentralized, peer-to-peer (P2P) digital currency and payment network supported by an open-source blockchain protocol. Through Sugarchain, users can make payments to anyone in the world at the highest speeds ***in 5 seconds*** and the lowest costs compared to other digital assets, for example the transaction speed of Sugarchain is 120 times faster than Bitcoin, 30 times faster than Litecoin and 12 times faster than Dogecoin. It was launched in August 2019 by Zenny Kim and Volodymyr Biloshytskyi.
 
