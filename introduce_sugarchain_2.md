@@ -1,4 +1,4 @@
-# DRAFT
+# Introduction to Sugarchain Project
 
 - Reference: [1](https://grayscale.co/insights/an-introduction-to-litecoin/?utm_medium=social&utm_source=twitter&utm_campaign=2020_q1_LTC_building-blocks) [2](https://digibyte.io/?lang=en)
 - Keywords
