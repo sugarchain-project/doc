@@ -121,4 +121,4 @@ Pool Settings
 
 -------------
 
-If you have an additional question, contact [cryptozeny](https://keybase.io/cryptozeny) on [Discord](https://discord.gg/D6NJn5t) or [Telegram](https://t.me/sugarchain).
+If you have an additional question, contact [cryptozeny](https://keybase.io/cryptozeny) on [Telegram](https://t.me/sugarchain).
