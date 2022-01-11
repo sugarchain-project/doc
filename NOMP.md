@@ -102,7 +102,7 @@ https://github.com/sugarchain-project/doc/blob/master/sugarchain.json
 }
 ```
 
-- Bech32 Patch for Website (Credit @okoto-xyz)  
+- Bech32 Patch for Website (Credit okoto-xyz)  
 Remove these lines on `libs/website.js`
 ```diff
 - buildKeyScriptPage();
@@ -121,4 +121,4 @@ Pool Settings
 
 -------------
 
-If you have an additional question, contact [cryptozeny](https://keybase.io/cryptozeny) on [Telegram](https://t.me/sugarchain).
+If you have an additional question, contact cryptozeny on [Telegram](https://t.me/sugarchain).
